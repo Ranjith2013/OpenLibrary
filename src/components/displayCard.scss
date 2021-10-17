@@ -1,0 +1,36 @@
+.list-card{
+    min-height: 20vh;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 9px;
+    box-shadow: 0 1px 6px 0 #929382;
+}
+.card-item{
+    margin-top: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 20vw;
+    height: 20vh;
+}
+
+.author-name{
+color: lightblue;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+width: 20vw;
+}
+
+.list-search-card{
+    opacity: 0.4;
+    pointer-events: none;
+    cursor: not-allowed;
+    border-radius: 9px;
+    box-shadow: 0 1px 6px 0 #929382;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+}
